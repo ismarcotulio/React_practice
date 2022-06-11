@@ -1,8 +1,6 @@
 import React from 'react';
 
-const FirstApp = () => {
-
-    const greeting = 'Hello World';
+const FirstApp = ( { greeting = 'Hello World' } ) => {
 
     return (
         <>
