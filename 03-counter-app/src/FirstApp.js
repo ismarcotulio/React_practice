@@ -1,17 +1,12 @@
-// import React, { Fragment } from 'react';
+import React from 'react';
 
 const FirstApp = () => {
-    /*
-    return (
-        <Fragment>
-            <h1>Hello World</h1>
-            <p>This is paragraph</p>
-        </Fragment>
-    )
-    */
+
+    const greeting = 'Hello World';
+
     return (
         <>
-            <h1>Hello World</h1>
+            <h1> { greeting } </h1>
             <p>This is paragraph</p>
         </>
     )
